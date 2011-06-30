@@ -4,7 +4,7 @@
 
     Home <self>
     news
-    About Us <proposal>
+    About Us <about>
     materials
     citing
     Contact Us <contact>
@@ -14,7 +14,7 @@ Welcome
 =======
 
 The UTMOST project is a CCLI Type 2 grant that promotes open-source
-software and open-source curriculum in the undergraduate classroom.
+software and open-source curriculum in the undergraduate mathematics classroom.
 
 Freely-available open software, open textbooks, and other open
 curricular materials can allow teachers everywhere to transform the

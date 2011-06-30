@@ -38,7 +38,9 @@ Details
 
 Read our `original proposal <UTMOST_original_proposal.pdf>`_ or the
 updated `supplement <UTMOST_proposal_supplement.pdf>`_ for more
-details.  Collaborative award numbers are `DUE-1022574`_, `DUE-1022036`_, `DUE-1020957`_, `DUE-1020687`_, and `DUE-1020378`_.
+details.  Collaborative award numbers are `DUE-1022574`_ (AIM),
+`DUE-1022036`_ (Drake U.), `DUE-1020957`_ (Stephen F. Austin State
+U.), `DUE-1020687`_ (U. Colorado at Boulder), and `DUE-1020378`_ (U. Washington).
 
 .. _DUE-1022574: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1022574
 .. _DUE-1022036: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1022036
@@ -51,13 +53,17 @@ details.  Collaborative award numbers are `DUE-1022574`_, `DUE-1022036`_, `DUE-1
 Principal Investigators
 -----------------------
 
-* Rob Beezer, University of Puget Sound,
-* Jason Grout, Drake University
-* Marja-Liisa Hassi, University of Colorado at Boulder
-* Tom Judson, Stephen F. Austin State University
-* Kiran Kedlaya, MIT and UC San Diego
-* Sandra Laursen, University of Colorado at Boulder
-* William Stein, University of Washington
+* Rob Beezer, University of Puget Sound--Software, Curriculum, Test
+  Site Mentor
+* `Jason Grout <http://artsci.drake.edu/grout/>`_, Drake
+  University--Software, Curriculum, Test Site Mentor
+* Marja-Liisa Hassi, University of Colorado at Boulder--Assessment
+* Tom Judson, Stephen F. Austin State University--Curriculum,
+  Assessment, Test Site Mentor
+* Kiran Kedlaya, MIT and UC San Diego--Test Site Mentor
+* Sandra Laursen, University of Colorado at Boulder--Assessment
+* William Stein, University of Washington--Software, Curriculum, Test
+  Site Mentor
 
 
 Contact Us
