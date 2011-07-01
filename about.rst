@@ -53,12 +53,12 @@ U.), `DUE-1020687`_ (U. Colorado at Boulder), and `DUE-1020378`_ (U. Washington)
 Principal Investigators
 -----------------------
 
-* Rob Beezer, University of Puget Sound--Software, Curriculum, Test
+* `Rob Beezer <http://buzzard.ups.edu>`_, University of Puget Sound--Software, Curriculum, Test
   Site Mentor
 * `Jason Grout <http://artsci.drake.edu/grout/>`_, Drake
   University--Software, Curriculum, Test Site Mentor
 * Marja-Liisa Hassi, University of Colorado at Boulder--Assessment
-* Tom Judson, Stephen F. Austin State University--Curriculum,
+* `Tom Judson <http://faculty.sfasu.edu/judsontw/>`_, Stephen F. Austin State University--Curriculum,
   Assessment, Test Site Mentor
 * Kiran Kedlaya, MIT and UC San Diego--Test Site Mentor
 * Sandra Laursen, University of Colorado at Boulder--Assessment
