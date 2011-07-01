@@ -55,3 +55,7 @@ site: html
 # Copy changes to the repo from which they are served
 gh-pages: site
 	python _scripts/gh-pages.py
+
+upload: site
+	scp -r _build/html/* utmost@aimath.org:www/utmost.aimath.org/
+
