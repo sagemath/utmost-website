@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'UTMOST'
-copyright = u'UTMOST team'
+copyright = u'UTMOST team.  This material is based upon work supported by the National Science Foundation under Grant No. DUE-1022574.  Any opinions, findings and conclusions or recomendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -171,7 +171,7 @@ html_use_index = False
 html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False # not enough space at the bottom
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
