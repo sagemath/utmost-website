@@ -6,6 +6,13 @@ News
 
 August 2011
 ^^^^^^^^^^^
+
+AIM Open Textbook Initiative
+    American Institute of Mathematics has launched its `Open Textbook
+    Initiative <http://aimath.org/textbooks/>`_.  This initiative will
+    review and provide links to high-quality open-source textbooks.
+    This initiative is supported in part by UTMOST.
+
 Sage-Enhanced Textbooks
     Rob Beezer `announced
     <http://groups.google.com/group/sage-devel/browse_thread/thread/6b439a44b0794dbb/7f89285396f36b18>`_
