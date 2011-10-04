@@ -6,6 +6,13 @@ News
 
 August 2011
 ^^^^^^^^^^^
+Sage-Enhanced Textbooks
+    Rob Beezer `announced
+    <http://groups.google.com/group/sage-devel/browse_thread/thread/6b439a44b0794dbb/7f89285396f36b18>`_
+    his work on enhancing his `linear algebra textbook
+    <http://linear.ups.edu/sage-fcla.html>`_ and also `announced <http://groups.google.com/group/sage-edu/browse_thread/thread/39a89604d56ae837/2a1fe3b7265b38c6>`_
+    his work on enhancing Judson's `abstract algebra textbook <http://abstract.ups.edu/sage-aata.html>`_.  Both
+    of these projects involved work sponsored by UTMOST.
 
 Embedding Sage in a webpage (beta)
    You can now embed Sage into any webpage!  A beta version of the
