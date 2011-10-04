@@ -44,12 +44,12 @@ Embedding Sage in a webpage (beta)
     $(function() { // load only when the page is loaded
       var makecells = function() {
       singlecell.makeSinglecell({
-          inputDiv: "#singlecell-test",
+          inputLocation: "#singlecell-test",
 	  editor: "codemirror",
 	  hide: ["computationID","files","messages","sageMode"],
 	  replaceOutput: true});
      singlecell.makeSinglecell({
-          inputDiv: "#singlecell-interact",
+          inputLocation: "#singlecell-interact",
 	  template: singlecell.templates.minimal,
 	  evalButtonText: "Explore Taylor Polynomials"});
       }
