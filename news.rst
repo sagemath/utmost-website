@@ -23,7 +23,7 @@ Sage-Enhanced Textbooks
 
 Embedding Sage in a webpage (beta)
    You can now embed Sage into any webpage!  A beta version of the
-   Sage Single Cell server was released.  See the `public beta
+   Sage Cell server was released.  See the `public beta
    announcement <http://groups.google.com/group/sage-devel/browse_thread/thread/4919d1f6f74d9817/7263cf93d2a40d92>`_
    on the Sage development list.
    
@@ -32,7 +32,7 @@ Embedding Sage in a webpage (beta)
    
    .. raw:: html
      
-     <div id="singlecell-interact"><script type="text/code">var('x')
+    <div id="sagecell-interact"><script type="text/code">var('x')
     x0  = 0
     f(x)   = sin(x)*e^(-x)
     p   = plot(f,(x,-1,5), thickness=2)
@@ -46,33 +46,68 @@ Embedding Sage in a webpage (beta)
        show(dot + p + pt, ymin = -.5, ymax = 1)
     </script></div>
 
+   or generate graph paper (including a pdf)
+
+   .. raw:: html
+     
+        <div id="sagecell-graphpaper"><script type="text/code">html("<h3>Graph Paper Generator</h3>")
+        import matplotlib
+        @interact(layout=[['xmin','xmax'],['ymin','ymax'],['nolab','xlab'],['gridlines','ylab']])
+        def doit(xmin=-4,xmax=4,ymin=-4,ymax=4,nolab=('labels',True),xlab=('x ticks',True),ylab=('y ticks',True),gridlines=('gridlines',True)):
+         if xlab:
+             xlabels=[xmin+i for i in range(0,xmax-xmin+1)]
+         else:
+             xlabels=[]
+         if ylab:
+             ylabels=[ymin+i for i in range(0,ymax-ymin+1)]  
+         else:
+             ylabels=[]
+         p=plot(0,(x,xmin,xmax),ymin=ymin,ymax=ymax,ticks=[xlabels,ylabels],color='black', aspect_ratio=1,
+                gridlines=gridlines, gridlinesstyle=dict(linestyle='--',color='gray'))
+         if nolab:
+             show(p)
+             html('Click on link below to download PDF version.')
+             p.save("graph.pdf")
+         else:
+             p.show(tick_formatter=(matplotlib.ticker.NullFormatter(),matplotlib.ticker.NullFormatter()))
+             html('Click on link below to download PDF version.')
+             p.save("graph.pdf",tick_formatter=(matplotlib.ticker.NullFormatter(),matplotlib.ticker.NullFormatter())) 
+        </script></div>
+ 
+
    or try whatever Sage computation you want below.
    
    .. raw:: html
     
-      <div id="singlecell-test">factorial(30) # edit me</div>
+      <div id="sagecell-test">factorial(30) # edit me</div>
 
-       <script type="text/javascript" src="http://sagemath.org:5467/static/jquery-1.5.min.js"></script>
-       <script type="text/javascript" src="http://sagemath.org:5467/embedded_singlecell.js"></script>
+       <script type="text/javascript" src="http://sagemath.org:5467/static/jquery-1.7.1.min.js"></script>
+       <script type="text/javascript" src="http://sagemath.org:5467/embedded_sagecell.js"></script>
        <script type="text/javascript">
     $(function() { // load only when the page is loaded
       var makecells = function() {
-      singlecell.makeSinglecell({
-          inputLocation: "#singlecell-test",
+      sagecell.makeSagecell({
+          inputLocation: "#sagecell-test",
 	  editor: "codemirror",
 	  hide: ["computationID","files","messages","sageMode"],
 	  replaceOutput: true});
-     singlecell.makeSinglecell({
-          inputLocation: "#singlecell-interact",
-	  template: singlecell.templates.minimal,
+     sagecell.makeSagecell({
+          inputLocation: "#sagecell-interact",
+	  template: sagecell.templates.minimal,
 	  evalButtonText: "Explore Taylor Polynomials"});
+     sagecell.makeSagecell({
+          inputLocation: "#sagecell-graphpaper",
+	  template: sagecell.templates.minimal,
+	  evalButtonText: "Make graphing paper"});
       }
     
-      singlecell.init(makecells); // load Single Cell libraries and then
-                                  // initialize two Single Cell instances
+      sagecell.init(makecells); // load Sage Cell libraries and then
+                                  // initialize two Sage Cell instances
     
       });
       </script>
+
+
 
 June 2011
 ^^^^^^^^^
