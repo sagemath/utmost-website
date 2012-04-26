@@ -4,8 +4,33 @@ News
 
 .. begin-recent-news
 
+June 2012
+^^^^^^^^^
+
+Sage Education Days, June 13--15
+    `Sage Edu Days 4 <http://wiki.sagemath.org/education4>`_ will be
+    held June 13-15 at the University of Washington in Seattle.
+
+    Anyone with an interest in the use of Sage in educational settings
+    is welcome to attend.  The focus will primarily be on undergraduate
+    mathematics, but will not be limited to just that area.
+
+    There will also be a `developer conference
+    <http://wiki.sagemath.org/days41>`_ happening that whole week,
+    with the Sage notebook as the theme.
+
+January 2012
+^^^^^^^^^^^^
+
+Joint Meetings
+    We had a booth in the TUES poster session, and the Sage booth in the
+    conference hall was a big hit as well.
+
 August 2011
 ^^^^^^^^^^^
+
+Mathfest
+    We had a very successful booth that we shared with the Webwork folks
 
 AIM Open Textbook Initiative
     American Institute of Mathematics has launched its `Open Textbook
@@ -31,20 +56,31 @@ Embedding Sage in a webpage (beta)
    polynomial
    
    .. raw:: html
+
+      <script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
+      <script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
+
+   .. raw:: html
      
-    <div id="sagecell-interact"><script type="text/code">var('x')
-    x0  = 0
-    f(x)   = sin(x)*e^(-x)
-    p   = plot(f,(x,-1,5), thickness=2)
-    dot = point((x0,f(x=x0)),pointsize=80,rgbcolor=(1,0,0))
-    @interact
-    def _(order=(1..12)):
-       ft = f.taylor(x,x0,order)
-       pt = plot(ft,(x,-1, 5), color='green', thickness=2)
-       html('$f(x)\;=\;%s$'%latex(f(x)))
-       html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft(x)),order+1))
-       show(dot + p + pt, ymin = -.5, ymax = 1)
-    </script></div>
+      <div id="sagecell-interact"><script type="text/code">var('x')
+      x0  = 0
+      f(x)   = sin(x)*e^(-x)
+      p   = plot(f,(x,-1,5), thickness=2)
+      dot = point((x0,f(x=x0)),pointsize=80,rgbcolor=(1,0,0))
+      @interact
+      def _(order=(1..12)):
+         ft = f.taylor(x,x0,order)
+         pt = plot(ft,(x,-1, 5), color='green', thickness=2)
+         html('$f(x)\;=\;%s$'%latex(f(x)))
+         html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft(x)),order+1))
+         show(dot + p + pt, ymin = -.5, ymax = 1)
+      </script></div>
+      <script>
+      $(function () {
+          sagecell.makeSagecell({inputLocation:  '#sagecell-interact',
+                                 template: sagecell.templates.minimal,
+                                 evalButtonText: "Explore Taylor polynomials"})})
+      </script>
 
    or generate graph paper (including a pdf)
 
@@ -73,6 +109,12 @@ Embedding Sage in a webpage (beta)
              html('Click on link below to download PDF version.')
              p.save("graph.pdf",tick_formatter=(matplotlib.ticker.NullFormatter(),matplotlib.ticker.NullFormatter())) 
         </script></div>
+        <script>
+        $(function () {
+            sagecell.makeSagecell({inputLocation:  '#sagecell-graphpaper',
+	                           template: sagecell.templates.minimal,
+                                   evalButtonText: "Make graphing paper"})})
+        </script>
  
 
    or try whatever Sage computation you want below.
@@ -81,33 +123,12 @@ Embedding Sage in a webpage (beta)
     
       <div id="sagecell-test">factorial(30) # edit me</div>
 
-       <script type="text/javascript" src="http://sagemath.org:5467/static/jquery-1.7.1.min.js"></script>
-       <script type="text/javascript" src="http://sagemath.org:5467/embedded_sagecell.js"></script>
-       <script type="text/javascript">
-    $(function() { // load only when the page is loaded
-      var makecells = function() {
-      sagecell.makeSagecell({
-          inputLocation: "#sagecell-test",
-	  editor: "codemirror",
-	  hide: ["computationID","files","messages","sageMode"],
-	  replaceOutput: true});
-     sagecell.makeSagecell({
-          inputLocation: "#sagecell-interact",
-	  template: sagecell.templates.minimal,
-	  evalButtonText: "Explore Taylor Polynomials"});
-     sagecell.makeSagecell({
-          inputLocation: "#sagecell-graphpaper",
-	  template: sagecell.templates.minimal,
-	  evalButtonText: "Make graphing paper"});
-      }
-    
-      sagecell.init(makecells); // load Sage Cell libraries and then
-                                  // initialize two Sage Cell instances
-    
-      });
+      <script>
+      $(function () {sagecell.makeSagecell({inputLocation:  '#sagecell-test'})})
       </script>
 
 
+.. end-recent-news
 
 June 2011
 ^^^^^^^^^
@@ -118,7 +139,6 @@ Sage Education Days 3, 16--18 Jun 2011
     `conference homepage <http://wiki.sagemath.org/education3>`_ for
     details, links to videos of the talks, etc.
 
-.. end-recent-news
 
 July 2010
 ^^^^^^^^^
