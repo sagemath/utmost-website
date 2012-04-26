@@ -30,7 +30,7 @@ August 2011
 ^^^^^^^^^^^
 
 Mathfest
-    We had a very successful booth that we shared with the Webwork folks
+    We had a very successful booth that we shared with the `Webwork <http://webwork.maa.org/>`_ folks.
 
 AIM Open Textbook Initiative
     American Institute of Mathematics has launched its `Open Textbook
