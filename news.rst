@@ -48,9 +48,9 @@ Sage-Enhanced Textbooks
 
 Embedding Sage in a webpage (beta)
    You can now embed Sage into any webpage!  A beta version of the
-   Sage Cell server was released.  See the `public beta
-   announcement <http://groups.google.com/group/sage-devel/browse_thread/thread/4919d1f6f74d9817/7263cf93d2a40d92>`_
-   on the Sage development list.
+   Sage Cell server was released.  See the `documentation
+   <http://sage.math.washington.edu/home/jason/sagecell/embedding.html>`_
+   for embedding a computation.
    
    As an example, click the button below to explore a Taylor
    polynomial
@@ -124,7 +124,9 @@ Embedding Sage in a webpage (beta)
       <div id="sagecell-test">factorial(30) # edit me</div>
 
       <script>
-      $(function () {sagecell.makeSagecell({inputLocation:  '#sagecell-test'})})
+      $(function () {sagecell.makeSagecell({
+            inputLocation: '#sagecell-test', 
+            'hide': ['files']})})
       </script>
 
 

@@ -489,6 +489,30 @@ dl.docutils dt {
     font-size: larger;
 }
 
+.sagecell button {
+    background-color: white;
+    border: outset 2px;
+    padding: 0.1em 0.5em;
+}
+
+.sagecell button.sagecell_evalButton {
+    margin: 0.3em;
+    border-radius: 4px;
+    font-size: 120%;
+}
+
+.sagecell button:active {
+    border-style: inset;
+}
+
+.CodeMirror-scroll {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    min-height: 12ex;
+    max-height: 45ex;
+}
+
 
 /* 
    Local Variables: ***
