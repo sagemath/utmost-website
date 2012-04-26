@@ -56,6 +56,8 @@ site: html
 gh-pages: site
 	python _scripts/gh-pages.py
 
-upload: site
+uploadscp: site
 	scp -r _build/html/* utmost@aimath.org:www/utmost.aimath.org/
 
+upload: site
+	rsync -zrave ssh --delete _build/html/ utmost@aimath.org:www/utmost.aimath.org/
