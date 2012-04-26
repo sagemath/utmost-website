@@ -14,7 +14,7 @@ Welcome
 =======
 
 The UTMOST project is a CCLI Type 2 grant that promotes open-source
-software and open-source curriculum in the undergraduate mathematics classroom.
+software and open-source curriculum in the undergraduate mathematics classroom.  For more details and the proposal, see the :doc:`About Us <about>` page.
 
 Freely-available open software, open textbooks, and other open
 curricular materials can allow teachers everywhere to transform the
@@ -23,7 +23,9 @@ integrating mathematics software with more traditional curricular
 materials.
 
 
+.. raw:: html
 
+    <table style="text-align:left;"><tr><td style="padding-right:1.5em">
 
 Open Software
 -------------
@@ -34,7 +36,9 @@ We integrate `Sage <www.sagemath.org>`_ directly into open course materials.
 * curriculum steers software development
 * usable anytime, anywhere, with just a web browser
 
+.. raw:: html
 
+    </td><td style="padding-left:1.5em">
 
 Open Textbooks
 --------------
@@ -45,6 +49,9 @@ Open course materials are freely available to anyone, anywhere.
 * freely distribute original or adapted textbooks and materials
 * integrate technology easily
 
+.. raw:: html
+
+    </td></tr></table>
 
 News
 ----
