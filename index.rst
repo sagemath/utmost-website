@@ -8,6 +8,7 @@
     materials
     citing
     Contact Us <contact>
+    othernews
 
 =======
 Welcome
