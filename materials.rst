@@ -4,6 +4,15 @@
 Curricular Materials
 ====================
 
+Website
+-------
+
+The `Sage Interact <http://interact.sagemath.org>`_ website provides
+an easy way to share Sage interacts and files with the Sage community.
+Comments, personal bookmarks, tags, and ratings help organize the
+resources.  Feel free to create an account and upload your favorite
+Sage examples!
+
 
 Textbooks
 ---------
