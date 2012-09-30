@@ -6,6 +6,37 @@ Here are a few articles and news items dealing with open-source
 software and curricular materials in academics.
 
 
+September 2012
+^^^^^^^^^^^^^^
+
+Finnish teachers create open-source mathematics textbook in 3 days
+    29 September 2012---A group of Finnish teachers created an
+    open-source mathematics textbook for secondary school in a 3-day
+    sprint.  While the book is in Finnish, it is a very interesting
+    experiment in creating textbooks.  See the `blog post
+    <http://linja-aho.blogspot.fi/2012/09/a-group-of-finnish-math-teachers-write.html>`_
+    for more.
+
+
+California will create 50 free digital textbooks
+    27 September 2012---California has passed a law to create 50 free
+    digital textbooks targeting lower-division college courses.
+    California also passed a law to create the California Digital Open
+    Source Library.  See
+    the `Los Angeles Times article
+    <http://latimesblogs.latimes.com/california-politics/2012/09/free-digital-textbooks-to-be-made-available-after-gov-jerry-brown-signs-bills.html>`_
+    for more details.
+
+Particle Physics taking all journals to open-access
+    24 September 2012---"After six years of negotiation, the
+    Sponsoring Consortium for Open Access Publishing in Particle
+    Physics is now close to ensuring that nearly all
+    particle-physics articles — about 7,000 publications last year —
+    are made immediately free on journal websites. Upfront payments
+    from libraries will fund the access."  See the `Nature article
+    <http://www.nature.com/news/open-access-deal-for-particle-physics-1.11468>`_
+    for more.
+
 June 2012
 ^^^^^^^^^
 
