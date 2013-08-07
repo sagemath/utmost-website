@@ -57,7 +57,7 @@ gh-pages: site
 	python _scripts/gh-pages.py
 
 uploadscp: site
-	scp -r _build/html/* utmost@aimath.org:www/utmost.aimath.org/
+	scp -r _build/html utmost@aimath.org:www/utmost.aimath.org/htdocs
 
 upload: site
-	rsync -zrave ssh --delete _build/html/ utmost@aimath.org:www/utmost.aimath.org/
+	rsync -zrave ssh --delete _build/html/ utmost@aimath.org:www/utmost.aimath.org/htdocs/
