@@ -25,11 +25,13 @@ Components
 * `Sage Cell Server <https://sagecell.sagemath.org>`_: embed live
   computations into any webpage
 * `MathBook XML <http://mathbook.pugetsound.edu/>`_: a framework for
-  writing scientific and education material and publish in a variety
+  writing mathematical material to publish in a variety
   of formats
 * `Sage Education Workshops
   <http://wiki.sagemath.org/Workshops#Education_Days>`_: workshops for
   learning how to use Sage in education
+* `AIM Open Textbook Initiative <http://aimath.org/textbooks/>`_:
+  quality open-source textbooks
 
 
 Freely-available open software, open textbooks, and other open
