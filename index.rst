@@ -17,6 +17,21 @@ Welcome
 The UTMOST project is a CCLI Type 2 grant that promotes open-source
 software and open-source curriculum in the undergraduate mathematics classroom.  For more details and the proposal, see the :doc:`About Us <about>` page.
 
+Components
+----------
+
+* `Sage Cloud <https://cloud.sagemath.com>`_: a comprehensive cloud
+  computing environment for education and scientific computing
+* `Sage Cell Server <https://sagecell.sagemath.org>`_: embed live
+  computations into any webpage
+* `MathBook XML <http://mathbook.pugetsound.edu/>`_: a framework for
+  writing scientific and education material and publish in a variety
+  of formats
+* `Sage Education Workshops
+  <http://wiki.sagemath.org/Workshops#Education_Days>`_: workshops for
+  learning how to use Sage in education
+
+
 Freely-available open software, open textbooks, and other open
 curricular materials can allow teachers everywhere to transform the
 undergraduate mathematics curriculum by tightly and seamlessly
