@@ -20,7 +20,7 @@ software and open-source curriculum in the undergraduate mathematics classroom. 
 Components
 ----------
 
-* `Sage Cloud <https://cloud.sagemath.com>`_: a comprehensive cloud
+* `SageMathCloud <https://cloud.sagemath.com>`_: a comprehensive cloud
   computing environment for education and scientific computing
 * `Sage Cell Server <https://sagecell.sagemath.org>`_: embed live
   computations into any webpage
