@@ -8,7 +8,7 @@ June 2014
 ^^^^^^^^^
 
 Sage Education Days, June 16--18
-    `Sage Edu Days 6 <http://wiki.sagemath.org/education6>`_ will be
+    `Sage Edu Days 6 <http://wiki.sagemath.org/education6>`__ will be
     held June 16--18 at the University of Washington in Seattle.  See
     the website for schedule and videos of talks.
 
@@ -17,10 +17,10 @@ Sage Education Days, June 16--18
     mathematics, but will not be limited to just that area.
 
     There will also be a `developer conference
-    <http://wiki.sagemath.org/days58>`_ happening that whole week.
+    <http://wiki.sagemath.org/days58>`__ happening that whole week.
 
 March 2014
-^^^^^^^^
+^^^^^^^^^^
 
 Sage Cell Server
     In March 2014, the Sage Cell Server had an average of 1986
@@ -35,11 +35,11 @@ SageMathCloud
     In March 2014, about 40,000 projects were modified.  At the end of
     March, there were around 28,500 accounts (with about 150 accounts being
     created each day) and around 43,500 total projects.  See `this page
-    <http://boxen.math.washington.edu/home/schilly/salvus/stats/stats.html>`_
+    <http://boxen.math.washington.edu/home/schilly/salvus/stats/stats.html>`__
     for more graphs and statistics.
 
 January 2014
-^^^^^^^^^^
+^^^^^^^^^^^^
 
 Joint Mathematics Meetings, January 15--18
     The UTMOST team presented a poster on this project at the NSF
@@ -54,10 +54,10 @@ Joint Mathematics Meetings, January 15--18
 
 
 June 2013
-^^^^^^^^
+^^^^^^^^^
 
 Sage Education Days, June 19--21
-    `Sage Edu Days 5 <http://wiki.sagemath.org/education5>`_ will be
+    `Sage Edu Days 5 <http://wiki.sagemath.org/education5>`__ will be
     held June 19--21 at the University of Washington in Seattle.  See
     the website for schedule and videos of talks.
 
@@ -66,7 +66,7 @@ Sage Education Days, June 19--21
     mathematics, but will not be limited to just that area.
 
     There will also be a `developer conference
-    <http://wiki.sagemath.org/days48>`_ happening that whole week,
+    <http://wiki.sagemath.org/days48>`__ happening that whole week,
     with the Sage Cloud as the theme.
 
 .. end-recent-news
@@ -75,7 +75,7 @@ June 2012
 ^^^^^^^^^
 
 Sage Education Days, June 13--21
-    `Sage Edu Days 5 <http://wiki.sagemath.org/education4>`_ will be
+    `Sage Edu Days 5 <http://wiki.sagemath.org/education4>`__ will be
     held June 13-15 at the University of Washington in Seattle.
 
     Anyone with an interest in the use of Sage in educational settings
@@ -83,7 +83,7 @@ Sage Education Days, June 13--21
     mathematics, but will not be limited to just that area.
 
     There will also be a `developer conference
-    <http://wiki.sagemath.org/days41>`_ happening that whole week,
+    <http://wiki.sagemath.org/days41>`__ happening that whole week,
     with the Sage notebook as the theme.
 
 January 2012
@@ -97,26 +97,26 @@ August 2011
 ^^^^^^^^^^^
 
 Mathfest
-    We had a very successful booth that we shared with the `Webwork <http://webwork.maa.org/>`_ folks.
+    We had a very successful booth that we shared with the `Webwork <http://webwork.maa.org/>`__ folks.
 
 AIM Open Textbook Initiative
     American Institute of Mathematics has launched its `Open Textbook
-    Initiative <http://aimath.org/textbooks/>`_.  This initiative will
+    Initiative <http://aimath.org/textbooks/>`__.  This initiative will
     review and provide links to high-quality open-source textbooks.
     This initiative is supported in part by UTMOST.
 
 Sage-Enhanced Textbooks
     Rob Beezer `announced
-    <http://groups.google.com/group/sage-devel/browse_thread/thread/6b439a44b0794dbb/7f89285396f36b18>`_
+    <http://groups.google.com/group/sage-devel/browse_thread/thread/6b439a44b0794dbb/7f89285396f36b18>`__
     his work on enhancing his `linear algebra textbook
-    <http://linear.ups.edu/sage-fcla.html>`_ and also `announced <http://groups.google.com/group/sage-edu/browse_thread/thread/39a89604d56ae837/2a1fe3b7265b38c6>`_
-    his work on enhancing Judson's `abstract algebra textbook <http://abstract.ups.edu/sage-aata.html>`_.  Both
+    <http://linear.ups.edu/sage-fcla.html>`__ and also `announced <http://groups.google.com/group/sage-edu/browse_thread/thread/39a89604d56ae837/2a1fe3b7265b38c6>`__
+    his work on enhancing Judson's `abstract algebra textbook <http://abstract.ups.edu/sage-aata.html>`__.  Both
     of these projects involved work sponsored by UTMOST.
 
 Embedding Sage in a webpage (beta)
    You can now embed Sage into any webpage!  A beta version of the
    Sage Cell server was released.  See the `documentation
-   <http://sage.math.washington.edu/home/jason/sagecell/embedding.html>`_
+   <http://sage.math.washington.edu/home/jason/sagecell/embedding.html>`__
    for embedding a computation.
    
    As an example, click the button below to explore a Taylor
@@ -204,7 +204,7 @@ June 2011
 Sage Education Days 3, 16--18 Jun 2011
     We had our first UTMOST conference in Seattle with the test site
     teacher-authors for the 2011-2012 academic year.  See the
-    `conference homepage <http://wiki.sagemath.org/education3>`_ for
+    `conference homepage <http://wiki.sagemath.org/education3>`__ for
     details, links to videos of the talks, etc.
 
 
