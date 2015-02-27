@@ -4,11 +4,45 @@ News
 
 .. begin-recent-news
 
+June 2014
+^^^^^^^^^
+
+Sage Education Days, June 16--18
+    `Sage Edu Days 6 <http://wiki.sagemath.org/education6>`_ will be
+    held June 16--18 at the University of Washington in Seattle.
+
+    Anyone with an interest in the use of Sage in educational settings
+    is welcome to attend.  The focus will primarily be on undergraduate
+    mathematics, but will not be limited to just that area.
+
+    There will also be a `developer conference
+    <http://wiki.sagemath.org/days58>`_ happening that whole week,
+    with the Sage notebook as the theme.
+
+
+
+June 2013
+^^^^^^^^^
+
+Sage Education Days, June 19--21
+    `Sage Edu Days 5 <http://wiki.sagemath.org/education5>`_ will be
+    held June 19--21 at the University of Washington in Seattle.
+
+    Anyone with an interest in the use of Sage in educational settings
+    is welcome to attend.  The focus will primarily be on undergraduate
+    mathematics, but will not be limited to just that area.
+
+    There will also be a `developer conference
+    <http://wiki.sagemath.org/days48>`_ happening that whole week,
+    with the Sage notebook as the theme.
+
+.. end-recent-news
+
 June 2012
 ^^^^^^^^^
 
-Sage Education Days, June 13--15
-    `Sage Edu Days 4 <http://wiki.sagemath.org/education4>`_ will be
+Sage Education Days, June 13--21
+    `Sage Edu Days 5 <http://wiki.sagemath.org/education4>`_ will be
     held June 13-15 at the University of Washington in Seattle.
 
     Anyone with an interest in the use of Sage in educational settings
@@ -130,7 +164,6 @@ Embedding Sage in a webpage (beta)
       </script>
 
 
-.. end-recent-news
 
 June 2011
 ^^^^^^^^^
