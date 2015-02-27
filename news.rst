@@ -31,7 +31,7 @@ Sage Cell Server
     (no doubt due to Rob Beezer's online linear algebra textbook using
     it), followed by Omaha, NE, Ottawa, Hartford, CN, and Fargo, ND.
 
-Sage Cloud
+SageMathCloud
     In March 2014, about 40,000 projects were modified.  At the end of
     March, there were around 28,500 accounts (with about 150 accounts being
     created each day) and around 43,500 total projects.  See `this page
@@ -50,7 +50,7 @@ Joint Mathematics Meetings, January 15--18
     Online Resources session (Jason Grout).
 
     The Sage project also had a successful booth in the exhibit hall, which introduced
-    many people to both the Sage Cloud and the Sage Cell Server
+    many people to both the SageMathCloud and the Sage Cell Server
 
 
 June 2013
