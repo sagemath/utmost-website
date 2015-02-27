@@ -9,24 +9,57 @@ June 2014
 
 Sage Education Days, June 16--18
     `Sage Edu Days 6 <http://wiki.sagemath.org/education6>`_ will be
-    held June 16--18 at the University of Washington in Seattle.
+    held June 16--18 at the University of Washington in Seattle.  See
+    the website for schedule and videos of talks.
 
     Anyone with an interest in the use of Sage in educational settings
     is welcome to attend.  The focus will primarily be on undergraduate
     mathematics, but will not be limited to just that area.
 
     There will also be a `developer conference
-    <http://wiki.sagemath.org/days58>`_ happening that whole week,
-    with the Sage notebook as the theme.
+    <http://wiki.sagemath.org/days58>`_ happening that whole week.
 
+March 2014
+^^^^^^^^
+
+Sage Cell Server
+    In March 2014, the Sage Cell Server had an average of 1986
+    computations per day, about 100 more computations per day than in
+    February 2014.  The service was visited by users in 158 countries
+    (about half coming from United States, 25% from Europe, and
+    10% from Asia).  The top city accessing the service was Tacoma, WA
+    (no doubt due to Rob Beezer's online linear algebra textbook using
+    it), followed by Omaha, NE, Ottawa, Hartford, CN, and Fargo, ND.
+
+Sage Cloud
+    In March 2014, about 40,000 projects were modified.  At the end of
+    March, there were around 28,500 accounts (with about 150 accounts being
+    created each day) and around 43,500 total projects.  See `this page
+    <http://boxen.math.washington.edu/home/schilly/salvus/stats/stats.html>`_
+    for more graphs and statistics.
+
+January 2014
+^^^^^^^^^^
+
+Joint Mathematics Meetings, January 15--18
+    The UTMOST team presented a poster on this project at the NSF
+    UTMOST poster session
+
+    Several UTMOST collaborators talked in sessions, including the
+    MAA Open Textbook session (Tom Judson/Rob Beezer) and in the MAA
+    Online Resources session (Jason Grout).
+
+    The Sage project also had a successful booth in the exhibit hall, which introduced
+    many people to both the Sage Cloud and the Sage Cell Server
 
 
 June 2013
-^^^^^^^^^
+^^^^^^^^
 
 Sage Education Days, June 19--21
     `Sage Edu Days 5 <http://wiki.sagemath.org/education5>`_ will be
-    held June 19--21 at the University of Washington in Seattle.
+    held June 19--21 at the University of Washington in Seattle.  See
+    the website for schedule and videos of talks.
 
     Anyone with an interest in the use of Sage in educational settings
     is welcome to attend.  The focus will primarily be on undergraduate
@@ -34,10 +67,10 @@ Sage Education Days, June 19--21
 
     There will also be a `developer conference
     <http://wiki.sagemath.org/days48>`_ happening that whole week,
-    with the Sage notebook as the theme.
+    with the Sage Cloud as the theme.
 
 .. end-recent-news
-
+ 
 June 2012
 ^^^^^^^^^
 
