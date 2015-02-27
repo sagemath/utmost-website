@@ -46,9 +46,14 @@
     <div class="content-wrapper">
       <div class="content">
         {%- block sidebar2 %}
-            {# We don't want the logo here #}
-            {%- block sidebarlogo %} {% endblock %}
-            {{ sidebar() }}
+          <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+            <div class="sphinxsidebarwrapper">
+              {# We don't want the logo here #}
+              {%- block sidebarlogo %} {% endblock %}
+              <h3>{{ _('Table Of Contents') }}</h3>
+              {{ toctree(includehidden=True) }}
+            </div>
+          </div>
         {% endblock %}
         <div class="document">
           {%- block document %}
